@@ -41,27 +41,33 @@ layers:
   - {t: ;, s: ':'}
   - .
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$ # NEW
   - Z
   - X
   - C
   - V
-  - B
+  # - B
   - $$mdi:arrow-right-bold$$
+  - B # NEW
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  # - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  # - layer1
+  # - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - layer1
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  # - $$mdi:keyboard-space$$
+  # - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
